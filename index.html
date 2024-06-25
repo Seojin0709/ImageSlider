@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+            <button onclick="DownChangeImage()"><</button>
+            <div class="container">
+                <div class="image-wrapper">
+                    <img src="image/after1.png" alt="After" class="image after">
+                    <img src="image/before1.png" alt="Before" class="image before">
+                </div>
+                <div class="slider"></div>
+            </div>
+            <button onclick="UpChangeImage()">></button>
+        </div>
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <script src="scripts.js"></script>
+    </div>
+    
+
+</body>
+
+</html>
