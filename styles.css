@@ -10,7 +10,7 @@ html, body {
 .inner-container{
     display: flex;
     position: relative;
-    top: 100px;
+    top: 50px;
     justify-content: center;
     align-items: center;
     width: 100vw;
