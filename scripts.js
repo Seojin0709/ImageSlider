@@ -44,12 +44,16 @@ function moveDrag(e) {
 const Before = [
     'image/before1.png',
     'image/before2.png',
-    'image/before3.png'
+    'image/before3.png',
+    'image/before4.png',
+    'image/before5.png'
 ];
 const After = [
     'image/after1.png',
     'image/after2.png',
-    'image/after3.png'
+    'image/after3.png',
+    'image/after4.png',
+    'image/after5.png'
 ];
 let currentImageIndex = 0;
 
