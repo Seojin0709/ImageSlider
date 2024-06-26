@@ -1,3 +1,7 @@
+html, body {
+    touch-action: none;
+}
+
 .outer-container {
     display: flex;
     flex-direction: column;
@@ -5,6 +9,8 @@
 
 .inner-container{
     display: flex;
+    position: relative;
+    top: 100px;
     justify-content: center;
     align-items: center;
     width: 100vw;
@@ -55,22 +61,13 @@
     position: absolute;
     top: 0;
     left: 50%; /* 처음엔 슬라이더가 중앙에 위치 */
-    width: 3px; /* 슬라이더 너비 */
+    width: 5px; /* 슬라이더 너비 */
     height: 100%;
     background: #fff;
     cursor: ew-resize;
     z-index: 10;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transform: translateX(-50%);
-}
-
-.circle_slider{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: white;
-    text-align: center;
 }
 
 button {
@@ -101,7 +98,7 @@ button:active {
 .dots {
     display: flex; /* 닷들을 가로로 나열 */
     justify-content: center; /* 가로 가운데 정렬 */
-    margin-top: 10px; /* 닷들 위 간격 설정 */
+    margin-top: 30px; /* 닷들 위 간격 설정 */
 }
 
 .dot {
