@@ -9,6 +9,11 @@ let isDragging = false;
 slider.addEventListener('mousedown', startDrag);
 document.addEventListener('mouseup', stopDrag);
 document.addEventListener('mousemove', moveDrag);
+//우클릭 제한
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
+
 
 slider.addEventListener('touchstart', startDrag);
 document.addEventListener('touchend', stopDrag);
