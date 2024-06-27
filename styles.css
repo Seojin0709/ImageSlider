@@ -61,7 +61,7 @@ html, body {
     position: absolute;
     top: 0;
     left: 50%; /* 처음엔 슬라이더가 중앙에 위치 */
-    width: 5px; /* 슬라이더 너비 */
+    width: 10px; /* 슬라이더 너비 */
     height: 100%;
     background: #fff;
     cursor: ew-resize;
