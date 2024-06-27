@@ -47,14 +47,14 @@ function moveDrag(e) {
 }
 
 const Before = [
-    'image/de-aging_01_before.jpg',
+    'image/before1.png',
     'image/de-aging_02_before.jpg',
     'image/before3.png',
     'image/before4.png',
     'image/before5.png'
 ];
 const After = [
-    'image/de-aging_01_after.jpg',
+    'image/after1.png',
     'image/de-aging_02_after.jpg',
     'image/after3.png',
     'image/after4.png',
